@@ -9,6 +9,7 @@ include_once('database.php');
     </head>
     <body>
     <h1>Práce s databázou - advanced</h1>
+        <p>Tak je tu s databázou. Když se ti to nelíbí tak si hukni!</p>
 <?php
 $records = Database::select_all('test');
 
